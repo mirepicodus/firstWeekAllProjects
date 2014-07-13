@@ -1,0 +1,23 @@
+\b[aeiou] matches vowel in first position
+\b[^aeiou ]+ matches first n consonants
+\bqu find qu in first 2 positions
+\b[a-z]{1}qu qu in 2nd 2 positions
+\b[a-z]{1,2}y match y in 2nd or 3rd position
+\b[^aeiou ]{1,2}y  y as vowel
+
+
+CRYPT yell symbol day
+YPTCRAY ellyay ymbolsay ayday
+
+squirrel quick Sequoia
+irrelsquay ickquay Equoiasay
+
+
+if vowel first this
+if consonate first this
+is qu first
+if qu 2nd
+if y as vowel
+if not first y
+if in 2nd or third position
+if no other vowel

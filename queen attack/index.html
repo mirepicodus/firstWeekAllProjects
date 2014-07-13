@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Queen Attack</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Attack Queen attack</h1>
+
+      <form id="queen-attack">
+        <div class="form-group">
+          <label for="first-pos">Enter starting position coordinates of queen:</label>
+          <input id="fist-pos" type="text">
+          <label for="second-pos">Enter desired end position coordinates of queen:</label>
+          <input id="second-pos" type="text">
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <div id="result">
+        <p><span class="queen-attack-validation"></span> is <span class="not"></span> a valid move.</p>
+      </div>
+    </div>
+  </body>
+</html>
